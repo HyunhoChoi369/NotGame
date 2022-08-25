@@ -1,7 +1,6 @@
-name: CI
+name: Build
+
 on: [push]
-evn:
-  UNITY_LICENSE: ${{ secrets.UNITY_LISENCE }}
 
 jobs:
   build:
